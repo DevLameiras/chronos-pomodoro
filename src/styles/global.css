@@ -1,0 +1,10 @@
+/* CSS global, body, paragrafo, h1, etc */
+
+body {
+  font-family: sans-serif;
+  font-size: 30px;
+}
+
+h1 {
+  color: var(--primary);
+}
