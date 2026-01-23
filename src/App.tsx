@@ -1,25 +1,20 @@
-import { Heading } from './components/Heading';
-
 import './styles/theme.css';
 import './styles/global.css';
-import { TimerIcon } from 'lucide-react';
+import { Container } from './components/Container';
+import { Heading } from './components/Heading';
 
 export function App() {
   return (
     <>
-      <Heading>
-        Olá mundo!
-        <button>
-          <TimerIcon></TimerIcon>
-        </button>
-      </Heading>
-
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum sequi
-        magni sapiente minima, unde cumque voluptates. Quae minus excepturi
-        recusandae necessitatibus sit. Dolores unde laborum necessitatibus
-        dignissimos? Quis, sit itaque!
-      </p>
+      <Container>
+        <Heading>LOGO</Heading>
+      </Container>
+      <Container>
+        <Heading>MENU</Heading>
+      </Container>
+      <Container>
+        <Heading>FORM</Heading>
+      </Container>
     </>
   );
 }
