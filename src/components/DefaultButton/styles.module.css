@@ -21,3 +21,13 @@
 .button:hover {
   filter: brightness(80%);
 }
+
+.green {
+  background: var(--primary);
+  color: var(--text-over-primary);
+}
+
+.red {
+  background: var(--error);
+  color: var(--text-over-error);
+}
